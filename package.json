@@ -1,12 +1,12 @@
 {
-  "name": "component-library",
+  "name": "@huyduong98/component-library",
   "version": "1.0.0",
   "description": "library demo",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c" 
+    "rollup": "rollup -c"
   },
   "files": [
     "dist"
@@ -26,9 +26,18 @@
     "rollup": "^2.79.1",
     "rollup-plugin-dts": "^4.2.3"
   },
-
-  "name": "@YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YOUR_GITHUB_USERNAME"
-  }
+    "@HuyDuong98:registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuyDuong98/component-library.git"
+  },
+  "keywords": [
+    "component-library"
+  ],
+  "bugs": {
+    "url": "https://github.com/HuyDuong98/component-library/issues"
+  },
+  "homepage": "https://github.com/HuyDuong98/component-library#readme"
 }
